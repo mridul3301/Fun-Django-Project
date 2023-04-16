@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    {% load static %}
+  <link rel="shortcut icon" href="{% static 'favicon/dicefavicon.png' %}"/>
+    <link rel="stylesheet" href="/static/css/dicestyles.css">
+
+  </head>
+  <body>
+    <div class = "top">
+      <p class = "top"> <a href="/"> <button class="btn btn-primary btn-block btn-large"> Home </button></a></p>
+      </div>
+
+    <div class="container">
+      <h1>Play it</h1>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="/static/img/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="/static/img/dice6.png">
+      </div>
+
+    </div>
+    <div class = "pos">
+    <p> <a href="/dice"> <button class="btn btn-primary btn-block btn-large"> Refresh </button></a></p>
+    </div>
+
+    <script src="/static/js/diceindex.js" charset="utf-8"></script>
+
+      </body>
+
+      <footer>
+        🎲 Fuck You 🎲
+      </footer>
+    </html>

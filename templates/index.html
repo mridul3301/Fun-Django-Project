@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Play Games</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+{% load static %}
+  <link rel="shortcut icon" href="{% static 'favicon/favicon.png' %}"/>
+<link rel="stylesheet" href="/static/css/styles.css">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Select The Option</h1>
+
+  <div>
+
+        <p> <a href="/drum"> <button class="btn btn-primary btn-block btn-large"> Play Drum </button></a></p>
+        <p> <a href="/dice"> <button class="btn btn-primary btn-block btn-large"> Player 1 vs Player 2 </button></a></p>
+        <p> <a href="/simon"> <button class="btn btn-primary btn-block btn-large"> Simon Game </button></a></p>
+  </div>
+
+ </div>
+
+</body>
+</html>
